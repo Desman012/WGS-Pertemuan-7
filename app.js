@@ -14,5 +14,6 @@ const main = async () => {
         ques.savedata(name,email,tlp)
 }
 
+
 //memanggil fungsi main
 main() 
