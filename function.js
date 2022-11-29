@@ -26,8 +26,8 @@ if (!fs.existsSync(dataPath)) {
     fs.writeFileSync(dataPath, '[]', 'utf-8')
 }
 
-//membuat fungsi qustion
-const questions = (questions) => {
+//membuat fungsi qustionss
+const questionss = (questions) => {
     return new Promise((resolve, reject) => {
         //membuat pertanyaan
         rl.question(questions, (answer) => {
